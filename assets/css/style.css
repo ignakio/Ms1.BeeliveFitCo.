@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&family=Roboto:wght@400;700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Typography  */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fafafa;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: rgba(255, 162, 0, 1);
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgba(255, 162, 0, 1);
+}
+
+/* Hover states */
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: rgba(255, 162, 0, 1);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 162, 0, 1);
+    border-bottom: 1px solid rgba(255, 162, 0, 1);
+}
+
+/* Navigation */
+
+.navbar {
+    width: 100%;
+    background-color: #000;
+    border-bottom: 2px solid #fafafa;
+}
+
+.navbar-light .navbar-brand {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #fafafa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #fafafa;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fafafa;
+    border-color: #fafafa;
+}
+
+.navbar-toggler{
+    background-color: rgba(255, 162, 0, 1);
+}
+
+/* Header img */
+
+#headerimg {
+    background: url(../images/background\ header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+}
+
+#headerimg .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#headerimg .hero-text {
+    padding-top: 9rem;
+}
+
+.card-colour {
+    background-color: #000;
+    color: rgba(255, 162, 0, 1);
+    border: solid 4px rgba(255, 162, 0, 1);
+}
+
+/* Feedback Section */
+#feedback {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70%;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.feedback-h1 {
+    color: #555555;
+}
+
+.icon-card {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon {
+    background-color:rgba(255, 162, 0, 1);
+    color: #fafafa;
+    font-size: 3rem;
+    border-radius: 50%;
+    padding:7px;
+    margin-top: 70px;
+    height: 15rem;
+    width: 15rem;
+}
+
+.icon-text {
+    color: #555555;
+}
+
+
+/* About us section */
+/*Shades from https://www.w3schools.com/colors/colors_shades.asp */
+#about-us {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(212,212,212);
+    padding-top: 3rem;
+}
+
+.text-alt {
+    color: rgba(255, 162, 0, 1);
+}
+
+.text-alt-one{
+color: #000;
+}
+
+.del-icon {
+    font-size: 1.75rem;
+    color: rgba(255, 162, 0, 1);
+}
+.list-bg-color {
+    background-color: rgba(245, 153, 107, 0.1);
+}
+
+/* Location  */
+
+#location {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(248,248,248);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.location-heading {
+    color: rgba(255, 162, 0, 1);
+    padding-bottom: 0.5rem;
+}
+
+/* Contact Us Section */
+
+#contact-us {
+    width: 100%;
+    min-height: 80%;
+    background-color:rgb(212,212,212);
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.contact-text {
+    color: rgba(255, 162, 0, 1);
+}
+
+.form-control {
+    border: 1px solid #fafafa;
+    border-radius: 0.5rem;
+}
+
+.btn-dark {
+    background-color: rgba(255, 162, 0, 1);
+    border-color: rgba(255, 162, 0, 1);
+}
+
+.btn:hover {
+    background-color: #fafafa;
+    color: rgba(255, 162, 0, 1);
+    border-color: rgba(255, 162, 0, 1);
+}
+
+/* Footer */
+
+#footer-1 {
+    background-color: #000;
+    width: 100%;
+    min-height: 20vh;
+}
+
+.foot-icon {
+    font-size: 1.25rem;
+    color: #fafafa;
+}
+
+.footer-icon {
+    color: #fafafa;
+    font-size: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.footer-icon:hover {
+    color: rgba(255, 162, 0, 1);
+}
+
+/* ------------------------ Media Queries  */
+
+/* ADVICE - Help on understanding media queries https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
+
+/* iPhone 5 screen */
+@media screen and (max-width: 320px) {
+    #headerimg {
+        height: 50vh;
+    }
+    #headerimg .overlay {
+        height: 50vh;
+    }
+    #headerimg .hero-text {
+        padding-top: 4rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+
+/* iPhone X Landscape view */
+@media screen and (max-height: 375px) {
+    #headerimg{
+        min-height: 70vh;
+    }
+    #headerimg .overlay {
+        min-height: 70vh;
+    }
+    #headerimg .hero-text {
+        padding-top: 6rem;
+    }
+}
+
+/* iPhone 6 screen */
+@media screen and (max-width: 375px) {
+    #headerimg {
+        min-height: 40vh;
+    }
+    #headerimg .overlay {
+        min-height: 40vh;
+    }
+    #headerimg .hero-text {
+        padding-top: 8rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large breakpoint */
+
+@media screen and (max-width: 425px) {
+    #headerimg {
+        min-height: 45vh;
+    }
+    #headerimg .overlay {
+        min-height: 45vh;
+    }
+    #headerimg .hero-text {
+        padding-top: 7rem;
+    }
+}
+
+/* iPad and iPad pro */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #hero-image {
+        min-height: 40vh;
+    }
+    #hero-image .overlay {
+        min-height: 40vh;
+    }
+    #hero-image .hero-text {
+        padding-top: 7rem;
+    }
+}
+
+/* Pixel 2xl and iPhone 6/7/8 Landscape view */
+@media screen and (max-height: 414px) {
+    #hero-image {
+        min-height: 60vh;
+    }
+    #hero-image .overlay {
+        min-height: 60vh;
+    }
+    #hero-image .hero-text {
+        padding-top: 6rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+}
