@@ -1,59 +1,296 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Beelive Fit Co.
 
-Welcome ignakio,
+<img src="readme_files/readmefilesimgs/responsive.png" style="margin: 0;">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The final site can be viewed at  - [Beelive Fit Co. Live Website](https://ignakio.github.io/Ms1.BeeliveFitCo./)
 
-## Gitpod Reminders
+<p>&nbsp;</p>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Information about Beelive Fit Co.
+<img src="readme_files/readmefilesimgs/logoreadme.png" style="margin: 0;">
 
-`python3 -m http.server`
+Beelive Fit Co is a simple website would allow them to provide more info to the local community and be a stepping stone to eventually having an online programming.
 
-A blue button should appear to click: _Make Public_,
+<p>&nbsp;</p>
 
-Another blue button should appear to click: _Open Browser_.
+## 1. Purpose 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+This website was designed and created to fulfill the requirements of the Milestone 1 project for the Diploma in Full Stack Development from Code Institute. In order to build this project HTML, CSS and other skills learnt from the User Centric Design module were used. 
 
-A blue button should appear to click: _Make Public_,
+## 2. Aim 
 
-Another blue button should appear to click: _Open Browser_.
+The aim of this project is to create a fully responsive and aesthetically pleasing mobile first design for a personal trainer business. A well designed site would help ‘Beelive Fit Co.’ reach a wider audience and give them a chance to find more business online. The site should provide information and answers to potential new clients and existing ones. Give people the opportunity to know more about what they do and why they should support them. Lastly, the user could find ways to contact and follow Beelive Fit Co.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<p>&nbsp;</p>
 
-To log into the Heroku toolbelt CLI:
+# 3. User Experience (UX)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<p>&nbsp;</p>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+## 3.1 User Stories
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### 3.1.1 First time user of the site goals
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- As a first time user, I want to learn a bit more about the business and what they do?
+ 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- As a first time user, I want to learn where the business is located and what are the opening hours
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- As a first time user, I want to navigate the content and be able to interpret and understand the information easily.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- As a first time user, I want to follow the business on social media and be able to contact them. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- As a first time user, I want to be able to check the site on mobile as well as desktop. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### 3.1.2 Returning user of the site’s goals
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- As a returning user, I want to learn more about feedback options.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- As a returning user, I would like to contact the business to get answers to my questions. 
 
----
+- As a returning user, I would like to be able to find a phone number to call the personal trainer to ask them for some special classes. 
 
-Happy coding!
+
+### 3.1.3 A frequent user of the site’s goals
+
+- As a frequent user, I want to be able to sign up to the Beelive list.
+
+- As a frequent user, I want to be able to find quick links to the personal trainer’s social media pages. 
+
+- As a frequent user, I want to be able to check the latest information about the Covid.
+
+<p>&nbsp;</p>
+
+## 3.2 Personas
+
+Based on the user stories two personas were developed. Personas will give a face and personality to help in the design process. They are useful to refer back to keep a potential user front and centre in all development decisions.
+
+### 3.2.1 Persona 1
+
+### Shannon
+
+![Persona](readme_files/readmefilesimgs/shannondescription.png)
+
+
+
+<p>&nbsp;</p>
+
+
+## 3.3 UX Strategy 
+
+
+The aim of this project is to raise awareness of the stakeholders business with a fully responsive and visually appealing site. The site should be easy to use and build on existing mental models of mobile first design. The business will have a wide demographic so the key information should be easy to find and accessibility will be very important. 
+
+The primary objectives of the site would be 
+
+- Give users the chance to learn more about the business
+- Show customers what is unique about Beelive Fit Co. through text and visuals. 
+- Be able to communicate what services the business offers in changing covid 19 requirements.
+
+Meeting the user’s needs and goals
+
+- The site should be fully responsive and have the same effectiveness on mobile and desktop.
+- Imagery and icons used with short bursts of text. This will inform the user but not overwhelm and can give them the chance to learn more if they so wish.
+- A single page scrolling site that will guide the user to the relevant section without confusing them by moving away from the core home page. 
+- Fixed header to aid with the user’s navigation on the site for ease of use. 
+- Clear indicators of social media links, contact number and google map locations if the user wishes to find the stakeholder or find out more about the business.
+
+Following current industry best practices the site will be a one page scrolling site on desktop, with the navigation bar collapsing into a hamburger menu with a pop up modal on mobile and tablet. 
+
+## 3.4 Scope
+
+Using Lean UX a minimum viable product (MVP) was developed in order to learn quickly about what will work on the site. Developing the site in this way will allow time for testing and give ample opportunity to fix any bugs or features that may not be working. Using a Lean UX methodology will enable us to see if we 
+
+- Can clearly communicate what the business is about and what services we offer to the local community. 
+- Provide a way for users to connect or contact the business.
+- Give returning user’s the chance to learn more about what class is on this week.
+- Help new user’s locate us so they can visit us in the store
+- Provide an overall positive experience across all devices that a new user may use. 
+- That the site is built using correct HTML semantics and follows industry standards for accessibility. 
+
+
+## 3.5 Structure
+
+The website will operate as a scrolling one page site on desktop, with the navigation changing to a hamburger menu on mobile. The website will be broken into four sections that will help first time, frequent and returning users get answers to their questions. The navigation will be sticky and be viewable at each section of the site.
+
+- About Us section
+    - This section will clearly outline what Beelive fit is, what classes does the personal trainer offer and why you might choose Beelive Fit Co. over other Personal Trainers.
+
+- Feedback section
+    - This will provide some imagery to the user that will give them a feedback from some customers already using the business.
+
+- Location section
+    - This will provide the user with all of the information to help locate and visit the coach. There will be a map link to google maps as well as the address and contact number.
+
+- Contact Us section
+    - This section will help the user send a quick question or query to the business without leaving the site. This will present a good opportunity for the user to feel the have a direct line of communication with the business.
+
+### 3.5.1 Information Architecture for the site
+
+![Sitemap](readme_files/readmefilesimgs/architecture.png)
+
+## 3.6 Skeleton
+
+The wireframes were designed and built in [Balsamiq](https://balsamiq.com/) . They can be viewed at the following.
+
+- [Desktop](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/wireframes/desktopbalsamiq.pdf)
+
+- [Tablet](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/wireframes/ipadbalsamiq.pdf)
+
+- [Mobile](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/wireframes/mobilebalsamiq.pdf)
+
+
+
+
+<p>&nbsp;</p>
+
+## 3.7 Surface
+
+### 3.7.1 Colour
+
+As the website is for a local personal trainer service the colours and style should reflect that in the design. In order to get an idea of some colours I took a look at some photos from google about bees and honeycomb.
+<br>
+Colors: rgba(255, 162, 0, 1) Orange
+<br>
+        #555555 Grey
+<br>
+        rgba(0, 0, 0, 0.5) Black
+
+![Colour_1](readme_files/readmefilesimgs/honeycombcolours.jpg)
+
+### 3.7.2 Typography
+
+- For the headings on the site I have chosen [Raleway by Google Fonts](https://fonts.google.com/specimen/Raleway). I decided to use this font as a wide demographic would be using this site. Raleway is clear and fits well with the brand aesthetic. It also is likely that a user may not have trouble with this font as most devices will support google fonts.
+<br>
+<img src="readme_files/readmefilesimgs/beelivefitfont.png" style="margin: 0;">
+
+- For the body text on the site I used [Roboto by Christian Robertson](https://fonts.google.com/specimen/Roboto). Roboto is described as a font that allows for a more natural reading rhythm, which is will help the user navigate the content. Roboto is seen very often on websites and this in term will aid the user by building on existing mental models.
+<img src="readme_files/readmefilesimgs/robotofont.png" style="margin: 0;">
+<p>&nbsp;</p>
+
+# 4. Features 
+
+## 4.1 Existing Features
+- Website designed with HTML5, CSS3 and Bootstrap.
+- A modern single page site that scrolls to each section.
+- A fixed navigation bar that will keep the user informed where they are on the page and will also user hover fuctions to prompts possible page destination.
+- Fully responsive one page site that will adapt for desktop, tablet and mobile view. This will not comprimise the user experience as each layout is designed with screen size in mind.
+- Contact form for quick communication with the business.
+- Quick links in the footer to all available social media for Beelive Fit Co.
+
+
+## 4.2 Future Features 
+
+- Testimonals or clients feedback. Possibly display the google reviews and updates as more become available.
+- A about us section explaining the business.
+- A working contact form when I learn more about Javascript and the backend requirements for this. 
+
+<p>&nbsp;</p>
+
+# 5. Technologies used
+
+## 5.1 Languages
+- [HTML](https://en.wikipedia.org/wiki/HTML5) 
+
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+## 5.2 Frameworks, Libraries, Programs and Sites.
+
+- [Bootstrap](https://getbootstrap.com/) - Bootstrap was used to take advantage of the grid, ease of use for responsive layout and components like navbar, cards, existing CDN CI template and footer.
+
+- [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create wireframes for mobile, tablet and desktop.
+
+- [Adobe XD](https://www.adobe.com/ie/products/xd.html) - Adobe XD was used to create graphics, logo and personas that are included in the readme
+
+- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) - Illustrator was used to change colour of SVG icons to use in the README logo for Beelivefit Co.
+
+
+- [Google Fonts](https://fonts.google.com/) - The fonts 'Raleway' and 'Roboto' were found and the relevant CSS styling was taken from this site to import the fonts for use.
+
+
+- [Typewolf](https://www.typewolf.com/) - Typewolf was used to help get an insight into popular font pairings and for seeing what may work from google fonts selections. 
+
+- [Font Awesome](https://fontawesome.com/) - Font awesome provided the icons and code for the icons used in the about us section, deliveries and the footer.
+
+## 5.3 Workspace, Repositories and Version Control
+
+- [Github](https://www.github.com) - This project and all its files are hosted on github and the live website is hosted by using Git Hub Pages.
+
+- [Gitpod](https://www.gitpod.io) - Gitpod is recommended by the coding institute and was used as the IDE. It also enabled me to add, commit and push to GitHub and keep track of version control. 
+
+<p>&nbsp;</p>
+
+# 6. Testing 
+
+- Testing results can be read in the [testing.md]() file.
+
+<p>&nbsp;</p>
+
+# 7. Deployment 
+
+<p>&nbsp;</p>
+
+## 7.1 Publishing
+
+The Fresh Market site was published using [GitHubPages](https://pages.github.com/). In order to do this I took the following steps
+
+1. Open my Github Repo for this project [Ignacio Cladera|Beelive Fit Co.](https://github.com/ignakio/Ms1.BeeliveFitCo.)
+2. Locate and click on the settings section to the right of the screen. Settings can be viewed in the photo below
+<img src="readme_files/readmefilesimgs/locationbeelive.png" style="margin:0;">
+
+3. When settings is open you will need to scroll down to the 'Git Hub Pages' section which is around half way down the page.
+4. Use the 'Source' section and pick 'Master Branch'
+5. This will eventually reload and display the address for the published page as demonstrated in the photo below.
+<img src="readme_files/readmefilesimgs/pages.png" style="margin:0;">
+
+6. This can sometimes take a few minutes, so some patience may be required before being able to view your page. 
+
+## 7.2 Cloning Project 
+
+1. Open the Github Repo for this project [Ignacio Cladera|Beelive Fit Co.](https://github.com/ignakio/Ms1.BeeliveFitCo.)
+2. By clicking on the code section you will be presented with a drop down as demonstrated in the photo below
+<img src="readme_files/readmefilesimgs/cloningproject.png" style="margin:0;">
+
+3. Select and copy the URL or you can choose to 'Download Zip'
+4. With your terminal open or chosen IDE type 'git clone' in the CLI then paste the copied URL.
+5. If you would prefer you can also use the 'Open with Github Desktop' option and follow the steps provided.
+
+<p>&nbsp;</p>
+
+# 8. Credits 
+
+## 8.1 Code 
+
+- The [bootstrap documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/) was very important in helping me understand responsiveness and the grid.
+- All individual instances of Code Snippets or help from [Stack Overflow](http://stackoverflow.com/) are credited and commented within the HTML and CSS.
+- Another source of inspiration and help was [W3schools](https://www.w3schools.com/)
+- Finally, I learnt a lot from the Code Institute curriculum and questions asked in the various slack channels. 
+
+## 8.2 Images and websites
+
+- The hero image was used courtesy of Shannon Davidson collection.
+
+- The 'Feedback' illustration was used  from [google](https://www.google.com/search?q=mujeres+entrenando&sxsrf=ALeKk039p4KYlfMZpGDrJpda0pqvHVgxQg:1623261827743&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiay_rEkYvxAhXTOcAKHYZWBLQQ_AUoAXoECAEQAw&biw=1920&bih=969).
+
+- All content on the website was written by me. 
+
+- The icons used on the site were all sourced from [FontAwesome](https://fontawesome.com/).
+
+- These websites provided some inspiration for layout and form
+    - [Pure Gym uk](https://www.puregym.com/)
+    - [Steve Cook](https://www.fitnessculture.com/)
+
+## 8.3 Thanks 
+- Thanks to my mentor Maranatha Ilesanmi for his help and guidance during the process.
+- All of the people who helped me with questions and problems on the Code Institute Slack Channel.
+- The Code Institute Staff and Tutors.
+
+<p>&nbsp;</p>
+
+# 9. Support or Contact 
+
+Email: nacho.cladera@hotmail.com
+
+Or connect with me on [Linkedin](https://www.linkedin.com/in/ignacio-cladera-38897120b//).
