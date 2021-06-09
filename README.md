@@ -224,7 +224,7 @@ Colors: rgba(255, 162, 0, 1) Orange
 
 # 6. Testing 
 
-- Testing results can be read in the [testing.md]() file.
+- Testing results can be read in the [testing.md](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/TESTING.md) file.
 
 <p>&nbsp;</p>
 
