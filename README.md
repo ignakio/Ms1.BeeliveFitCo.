@@ -151,11 +151,11 @@ The wireframes were designed and built in [Balsamiq](https://balsamiq.com/) . Th
 ### 3.7.1 Colour
 
 As the website is for a local personal trainer service the colours and style should reflect that in the design. In order to get an idea of some colours I took a look at some photos from google about bees and honeycomb.
-<br>
+<p>&nbsp;</p>
 Colors: rgba(255, 162, 0, 1) Orange
-<br>
+<p>&nbsp;</p>
         #555555 Grey
-<br>
+<p>&nbsp;</p>
         rgba(0, 0, 0, 0.5) Black
 
 ![Colour_1](readme_files/readmefilesimgs/honeycombcolours.jpg)
@@ -163,9 +163,9 @@ Colors: rgba(255, 162, 0, 1) Orange
 ### 3.7.2 Typography
 
 - For the headings on the site I have chosen [Raleway by Google Fonts](https://fonts.google.com/specimen/Raleway). I decided to use this font as a wide demographic would be using this site. Raleway is clear and fits well with the brand aesthetic. It also is likely that a user may not have trouble with this font as most devices will support google fonts.
-<br>
+<p>&nbsp;</p>
 <img src="readme_files/readmefilesimgs/beelivefitfont.png" style="margin: 0;">
-
+<p>&nbsp;</p>
 - For the body text on the site I used [Roboto by Christian Robertson](https://fonts.google.com/specimen/Roboto). Roboto is described as a font that allows for a more natural reading rhythm, which is will help the user navigate the content. Roboto is seen very often on websites and this in term will aid the user by building on existing mental models.
 <img src="readme_files/readmefilesimgs/robotofont.png" style="margin: 0;">
 <p>&nbsp;</p>
@@ -212,7 +212,7 @@ Colors: rgba(255, 162, 0, 1) Orange
 
 - [Typewolf](https://www.typewolf.com/) - Typewolf was used to help get an insight into popular font pairings and for seeing what may work from google fonts selections. 
 
-- [Font Awesome](https://fontawesome.com/) - Font awesome provided the icons and code for the icons used in the about us section, deliveries and the footer.
+- [Font Awesome](https://fontawesome.com/) - Font awesome provided the icons and code for the icons used in the about us section, and footer.
 
 ## 5.3 Workspace, Repositories and Version Control
 
@@ -234,7 +234,7 @@ Colors: rgba(255, 162, 0, 1) Orange
 
 ## 7.1 Publishing
 
-The Fresh Market site was published using [GitHubPages](https://pages.github.com/). In order to do this I took the following steps
+Beelive Fit Co. site was published using [GitHubPages](https://pages.github.com/). In order to do this I took the following steps
 
 1. Open my Github Repo for this project [Ignacio Cladera|Beelive Fit Co.](https://github.com/ignakio/Ms1.BeeliveFitCo.)
 2. Locate and click on the settings section to the right of the screen. Settings can be viewed in the photo below
