@@ -135,11 +135,11 @@ The website will operate as a scrolling one page site on desktop, with the navig
 
 The wireframes were designed and built in [Balsamiq](https://balsamiq.com/) . They can be viewed at the following.
 
-- [Desktop](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/wireframes/desktopbalsamiq.pdf)
+- [Desktop](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/readme_files/readmefilesimgs/wireframes/wireframes/desktopbalsamiq.pdf)
 
-- [Tablet](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/wireframes/ipadbalsamiq.pdf)
+- [Tablet](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/readme_files/readmefilesimgs/wireframes/wireframes/ipadbalsamiq.pdf)
 
-- [Mobile](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/wireframes/mobilebalsamiq.pdf)
+- [Mobile](https://github.com/ignakio/Ms1.BeeliveFitCo./blob/master/readme_files/readmefilesimgs/wireframes/wireframes/mobilebalsamiq.pdf)
 
 
 
